@@ -1,0 +1,44 @@
+
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.links{
+    height: 100%;
+    background: black;
+    width: 0px;
+position: fixed;
+transition: 0.5s;
+overflow-x: hidden;
+
+}
+.links i{
+    padding: 8px 8px 8px 32px;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    right: 0px;
+position: absolute;
+}
+.links a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.links a:hover{
+    color:white;
+}
+
+#open {
+    position: relative;
+   left:0px;
+   margin-left: 0px;
+    transition: .5s;
+    padding: 16px;
+  }
